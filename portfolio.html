@@ -5,59 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio-portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script></head>
+    <link rel="stylesheet" href=assets/css/style.css>
 </head>
 <STYLE>A {text-decoration: none;} </STYLE>
 <body background="assets/images/white-waves.png">
-<div id="top">
-    <h1 id="name">
-        Jonathan Pratt
-    </h1>
-    <p id="links">
-            <a href="index.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="portfolio.html">Portfolio</a>
-    </p>
-</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <h1>Jonathan Pratt</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+              </ul>
+            </div>
+          </nav>
 <div id="portfolio">
     <h3>
         Portfolio
     </h3>
+    <div class="container">
+        <div class="row">
+    <div class="media">
+            <img src="http://lorempixel.com/64/64" class="mr-3" alt="placeholder">
+            <div class="media-body">
+              <h5 class="mt-0">Hangman</h5>
+                This is my Hangman Game
+            </div>
+          </div>
+          <div class="media">
+                <img src="http://lorempixel.com/64/64" class="mr-3" alt="placeholder">
+                <div class="media-body">
+                  <h5 class="mt-0">RPG Game</h5>
+                    This is my RPG Game
+                </div>
+                </div>
+                <div class="row">
+              </div>
+              <div class="media">
+                    <img src="http://lorempixel.com/64/64" class="mr-3" alt="placeholder">
+                    <div class="media-body">
+                      <h5 class="mt-0">Trivia Game</h5>
+                        This is my Trivia Game
+                    </div>
+                  </div>
+                  <div class="media">
+                        <img src="http://lorempixel.com/64/64" class="mr-3" alt="placeholder">
+                        <div class="media-body">
+                          <h5 class="mt-0">Rutgers Info Widget</h5>
+                            This is my Rutgers Info Widget
+                        </div>
+                      </div>
+                      </div>
+                      <div class="media">
+                            <img src="http://lorempixel.com/64/64" class="mr-3" alt="placeholder">
+                            <div class="media-body">
+                              <h5 class="mt-0">Rock Paper Scissors</h5>
+                                This is my Rock Paper Scissors Game
+                            </div>
+                          </div>
+                          </div>
     <hr id="cline" style="border: 2px solid #dddddd;" />
-    <div class="container">
-        <img class="image" src="http://lorempixel.com/250/150" alt="Placeholder"/>
-        <div id="hangman">
-            <h4>Hangman</h4>
+   
+<footer class="page-footer bg-dark">
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
         </div>
-    </div>
-    <div class="container">
-        <img class="image" src="http://lorempixel.com/250/150" alt="Placeholder"/>
-        <div id="rpg">
-            <h4>RPG Game</h4>
-        </div>
-    </div>
-    <div class="container">
-        <img class="image" src="http://lorempixel.com/250/150" alt="Placeholder"/>
-        <div id="trivia">
-            <h4>Trivia Game</h4>
-        </div>
-    </div>
-    <div class="container">
-        <img class="image" src="http://lorempixel.com/250/150" alt="Placeholder"/>
-        <div id="rutgers">
-            <h4>Rutgers Info Widget</h4>
-        </div>
-    </div>
-    <div class="container">
-        <img class="image" src="http://lorempixel.com/250/150" alt="Placeholder"/>
-        <div id="rock">
-            <h4>Rock Paper Scissors</h4>
-        </div>
-    </div>
-</div>
-<hr id="bline" style="border: 2px solid #4aaaa5;" />
-    <footer>
-        <p>Copyright©</p>
-    </footer>
+</footer>
 </body>
 </html>
